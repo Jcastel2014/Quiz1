@@ -9,3 +9,7 @@ type circle struct {
 func (c circle) area() float64 {
 	return math.Pi * (c.radius * c.radius)
 }
+
+func (c circle) perimeter() float64 {
+	return 2 * math.Pi * c.radius
+}
