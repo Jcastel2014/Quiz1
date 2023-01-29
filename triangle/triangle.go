@@ -5,7 +5,8 @@ type triangle struct {
 	height float64
 }
 
-func (t.triangle) area() float64 {
+func (t triangle) area() float64 {
+	return (t.base * t.height) / 2
 
 }
 func main() {
