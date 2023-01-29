@@ -20,4 +20,9 @@ func (t triangle) perimiter() float64 {
 }
 func main() {
 
+	rightAngleTriangle := triangle{
+		base:   20,
+		height: 40,
+	}
+
 }
