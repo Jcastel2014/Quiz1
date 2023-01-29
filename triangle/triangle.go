@@ -16,9 +16,10 @@ func (t triangle) area() float64 {
 }
 
 func (t triangle) perimiter() float64 {
-	hyp := math.Sqrt((t.base * t.base) * (t.height * t.height))
 
-	return hyp + t.base + t.height
+	per := math.Hypot(t.base, t.height) + t.base + t.height
+
+	return per
 
 }
 func main() {
